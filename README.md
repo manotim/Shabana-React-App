@@ -1,6 +1,45 @@
-# Getting Started with Create React App
+# Shabana-FC-Tickets-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Shabana Tickets app is a web app that help fans to the club commit their attendance to the cclub's upcoming matches. The page has a list of upcoming fixtures each held in a card where a user can commit their attendance which is visible to all. Users can also submit their desired clubs which they would wish the club administration to plan and arrange a friendly match with.
+
+# Description
+
+Shabana ticket commits app has utilized a number of event listeners, amongst them being, a window scroll event where the user is able to change the pages navigation properties once they start scrolling down the page. The user also can enjoy the mouse over and mouse out events on individual cards.
+
+The app has got its own external API which JSON uses to get data to the DOM through the fetch method.
+
+The page setup is made from react components to create it's components. A total of five components were used to create the app. They include;
+
+1. App.js
+2. TeamList.js
+3. TeamItem.js
+4. AddTeam.js
+5. Header.js
+
+The App.js component is responsible for connecting our app to the index.html page for rendering. It's the top most level component. It's child components include the AddTeam component, TeamsList and Header components.
+
+The TeamList component is the one that renders all the fixtures. This is where the mapping of individual items is done.
+
+The TeamItem component is the one that has the details of each individual card. It is responsible of the outlook of every card.
+
+AddTeam component is responsible for adding new cards to the page. As a user, I can add the details of a new instance of a fixture match of any match I am interested in. Once, am done, I can click the Add To Fixtures button, the fixture will be added to the existing fixtures.
+
+The Header component is in charge of how the page header looks like. For instance, its background and styling of how the header elements are displayed.
+
+There are not many challenges that I faced during the implementation of this project from javascript to React. However, I look forward to creating more React apps that utilize state more and all the main React Hooks.
+
+# PROJECT SET-UP
+
+To set up this project, install the following in your local machine:
+
+browser with a developer inbuilt console
+a code editor, prefereebly VS Code
+JSON Server
+To run the project, you need to:
+
+Create a new project folder.
+Create a new Github repository.
+run npx create-react-app my-flatiron-app to create the project.
 
 ## Available Scripts
 
@@ -68,4 +107,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Shabana-React-App
